@@ -1,0 +1,38 @@
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.csprojResolveAssemblyReference.cache
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.Form1.resources
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.Cache
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csprojResolveAssemblyReference.cache
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Form1.resources
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.Cache
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\Стефаненко\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csprojResolveAssemblyReference.cache
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Form1.resources
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.Cache
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\Addicted To Chaos\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
+C:\Users\lvans\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\lvans\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\lvans\Downloads\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csprojAssemblyReference.cache
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Form1.resources
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.cache
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\lvans\Downloads\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
