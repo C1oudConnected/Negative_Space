@@ -1,0 +1,19 @@
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.Form1.resources
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.Properties.Resources.resources
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.csproj.GenerateResource.Cache
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\bin\Debug\Spiral.exe.config
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\bin\Debug\Spiral.exe
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\bin\Debug\Spiral.pdb
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.exe
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.pdb
+c:\users\addicted to chaos\documents\visual studio 2017\Projects\Spiral\Spiral\obj\Debug\Spiral.csprojResolveAssemblyReference.cache
+C:\Users\lvans\Downloads\Spiral\Spiral\bin\Debug\Spiral.exe.config
+C:\Users\lvans\Downloads\Spiral\Spiral\bin\Debug\Spiral.exe
+C:\Users\lvans\Downloads\Spiral\Spiral\bin\Debug\Spiral.pdb
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.csprojAssemblyReference.cache
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.Form1.resources
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.Properties.Resources.resources
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.csproj.GenerateResource.cache
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.csproj.CoreCompileInputs.cache
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.exe
+C:\Users\lvans\Downloads\Spiral\Spiral\obj\Debug\Spiral.pdb
