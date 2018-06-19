@@ -1,12 +1,11 @@
-int absolute_value(int v) {
-	int lastBit = 1;
-    while (lastBit<<1)
-		lastBit <<= 1;
-    return v * ((v & lastBit)/lastBit * (-2) + 1);	
-}
-
 // If there is sizeof();
+T - integer type of unknown size
 
-int absolute_value_C(int v) {
-    return v * (v & 1<<(sizeof(v)*8-1))/(1<<(sizeof(v)*8-1)) * (-2) + 1);	
+T absolute_value_C(T v) {
+	// with Sign Extension
+	return v ^ (v>>(sizeof(v)>>3)) + v>>(sizeof(v)>>3);
+	
+	
+	// without Sign Extension (unfinished)
+	return v & (v & 1<<(sizeof(v)*8-1))/(1<<(sizeof(v)*8-1)) * (-2) + 1);	
 }
