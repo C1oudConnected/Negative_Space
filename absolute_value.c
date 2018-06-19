@@ -7,5 +7,5 @@ T absolute_value_C(T v) {
 	
 	
 	// without Sign Extension and sizeof() (unfinished)
-	return v * (v & (-1<<1))/(1<<(-1<<1) * (-2) + 1);
+	return v * (v & (-1<<1))/(-1<<1) * (-2) + 1;
 }
