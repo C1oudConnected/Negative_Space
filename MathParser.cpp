@@ -16,6 +16,10 @@ public:
 		: value(_value), left(_left), right(_right) {};
 
 	double evaluate(); //Evaluates the expression's value;
+	
+	void representInPrefix();
+	void representInPostfix();
+	void representInInfix();
 
 	friend Tree* parseStringToTree(char*);
 };
@@ -30,6 +34,46 @@ double Tree::evaluate() {
 		else if (value == "/") return left->evaluate() / right->evaluate();
 		else if (value == "^") return pow(left->evaluate(), right->evaluate());
 }
+
+
+void Tree::representInPrefix() {
+	if (left == NULL)
+		std::cout << value << " ";
+	else {
+		std::cout << value << " ";
+		left->representInPrefix();
+		right->representInPrefix();
+	}
+}
+
+void Tree::representInPostfix() {
+	if (left == NULL)
+		std::cout << value << " ";
+	else {
+		right->representInPostfix();
+		left->representInPostfix();
+		std::cout << value << " ";
+	}
+}
+
+void Tree::representInInfix() {
+	if (left == NULL)
+		std::cout << value << " ";
+	else {
+		if (((value == "*" || value == "/") && (left->value == "+" || left->value == "-")) || ((value == "^") && (left->value == "+" || left->value == "-" || left->value == "*" || left->value == "/")))
+			std::cout << "( ";
+		left->representInInfix();
+		if (((value == "*" || value == "/") && (left->value == "+" || left->value == "-")) || ((value == "^") && (left->value == "+" || left->value == "-" || left->value == "*" || left->value == "/")))
+			std::cout << ") ";
+		std::cout << value << " ";
+		if (((value == "*" || value == "/") && (right->value == "+" || right->value == "-")) || ((value == "^") && (right->value == "+" || right->value == "-" || right->value == "*" || right->value == "/")))
+			std::cout << "( ";
+		right->representInInfix();
+		if (((value == "*" || value == "/") && (right->value == "+" || right->value == "-")) || ((value == "^") && (right->value == "+" || right->value == "-" || right->value == "*" || right->value == "/")))
+			std::cout << ") ";
+	}
+}
+
 
 // Main parsing function;
 Tree* parseStringToTree(char* string) {
@@ -148,10 +192,16 @@ Tree* parseStringToTree(char* string) {
 
 int main()
 {
-	std::string str = "(4*(2+4))*100";
+	std::string str = "(2+3)*2^(4*(2+4))";
 	Tree* t = parseStringToTree(&str.at(0));
 	std::cout << str;
-	std::cout << std::endl << t->evaluate() << std::endl;
+	std::cout << std::endl <<"Value = " << t->evaluate() << std::endl;
+	std::cout << "Representation in prefix: "; t->representInPrefix();
+	std::cout << std::endl;
+	std::cout << "Representation in postfix: "; t->representInPostfix();
+	std::cout << std::endl;
+	std::cout << "Representation in infix: "; t->representInInfix();
+	std::cout << std::endl;
     return 0;
 }
 
