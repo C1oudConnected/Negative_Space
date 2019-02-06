@@ -14,6 +14,12 @@ class Tree {
 public:
 	Tree(std::string _value, Tree* _left = NULL, Tree* _right = NULL)
 		: value(_value), left(_left), right(_right) {};
+	~Tree() {
+		if (value == "+" || value == "-" || value == "*" || value == "/" || value == "^") {
+			delete(left);
+			delete(right);
+		}
+	}
 
 	double evaluate(); //Evaluates the expression's value;
 	
@@ -190,6 +196,7 @@ Tree* parseStringToTree(char* string) {
 	return ret_val;
 }
 
+
 int main()
 {
 	std::string str = "(2+3)*2^(4*(2+4))";
@@ -202,6 +209,8 @@ int main()
 	std::cout << std::endl;
 	std::cout << "Representation in infix: "; t->representInInfix();
 	std::cout << std::endl;
+	delete(t);
     return 0;
 }
+
 
