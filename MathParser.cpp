@@ -27,6 +27,7 @@ public:
 	void representInPostfix();
 	void representInInfix();
 
+
 	friend Tree* parseStringToTree(char*);
 };
 
@@ -40,7 +41,6 @@ double Tree::evaluate() {
 		else if (value == "/") return left->evaluate() / right->evaluate();
 		else if (value == "^") return pow(left->evaluate(), right->evaluate());
 }
-
 
 void Tree::representInPrefix() {
 	if (left == NULL)
@@ -82,8 +82,9 @@ void Tree::representInInfix() {
 
 
 // Main parsing function;
+
 Tree* parseStringToTree(char* string) {
-	static int i = 0; //Symbol counter;
+	static int i; //Symbol counter;
 	Tree* ret_val = NULL; //Return value;
 	int numb_start = -1; // start position of a current number;
 	std::string val;	 // current number string;
@@ -117,9 +118,15 @@ Tree* parseStringToTree(char* string) {
 				}
 
 				// Exit if expression ends;
-				if (string[i] == '\0' || string[i] == ')') {
+
+				if (string[i] == '\0') {
+					i = 0;
+					break;
+				}
+
+				if (string[i] == ')') {
 					i++;
-					return ret_val;
+					break;
 				}
 			}
 			// Recursively process the expression in brackets;
@@ -140,9 +147,15 @@ Tree* parseStringToTree(char* string) {
 				numb_start = -1;
 
 				//Exit if expression ends;
-				if (string[i] == '\0' || string[i] == ')') {
+
+				if (string[i] == '\0') {
+					i = 0;
+					break;
+				}
+
+				if (string[i] == ')') {
 					i++;
-					return ret_val;
+					break;
 				}
 			}
 
@@ -193,14 +206,16 @@ Tree* parseStringToTree(char* string) {
 		}
 
 	}
+
 	return ret_val;
 }
 
 
 int main()
 {
-	std::string str = "(2+3)*2^(4*(2+4))";
-	Tree* t = parseStringToTree(&str.at(0));
+	std::string str = "(2+3)*2^(4*(2+4))+0.5";
+	Tree* t = parseStringToTree((char*)str.data());
+
 	std::cout << str;
 	std::cout << std::endl <<"Value = " << t->evaluate() << std::endl;
 	std::cout << "Representation in prefix: "; t->representInPrefix();
